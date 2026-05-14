@@ -1,0 +1,93 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Nexconn Call Sample</string>
+
+    <!-- Login Screen -->
+    <string name="login_app_key_hint">App Key</string>
+    <string name="login_user_token_hint">User Token</string>
+    <string name="login_connect_button">Connect</string>
+    <string name="login_disconnect_button">Disconnect</string>
+    <string name="login_single_call_button">1v1 Call</string>
+    <string name="login_multi_call_button">Multi Call</string>
+
+    <!-- Single Call Screen -->
+    <string name="single_call_callee_hint">Callee User ID</string>
+    <string name="single_call_media_type_label">Media Type</string>
+    <string name="single_call_audio_video">Video</string>
+    <string name="single_call_audio_only">Audio</string>
+    <string name="single_call_start_button">Start Call</string>
+    <string name="single_call_end_button">End Call</string>
+    <string name="single_call_enable_camera">Enable Camera</string>
+    <string name="single_call_disable_camera">Disable Camera</string>
+    <string name="single_call_switch_camera">Switch Camera</string>
+    <string name="single_call_enable_microphone">Enable Microphone</string>
+    <string name="single_call_disable_microphone">Disable Microphone</string>
+    <string name="single_call_enable_speaker">Enable Speaker</string>
+    <string name="single_call_disable_speaker">Disable Speaker</string>
+    <string name="single_call_change_to_video">Change to Video Call</string>
+    <string name="single_call_local_user">Local User</string>
+    <string name="single_call_remote_user">Remote User</string>
+    <string name="single_call_audio_label">Audio</string>
+    <string name="single_call_remote_audio_label">%s\'s Audio</string>
+    <string name="single_call_history_title">Call History</string>
+
+    <!-- Multi Call Screen -->
+    <string name="multi_call_callees_hint">Callee User IDs: divided by comma (e.g. uid1,uid2,...)</string>
+    <string name="multi_call_invite_button">Invite to Call</string>
+    <string name="multi_call_invite_dialog_title">Invite Users</string>
+    <string name="multi_call_invite_dialog_hint">User IDs: divided by comma</string>
+    <string name="multi_call_invite_confirm">Invite</string>
+    <string name="multi_call_invite_cancel">Cancel</string>
+    <string name="multi_call_user_list_title">User List</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_incoming_call_title">Incoming Call</string>
+    <string name="dialog_incoming_call_message">Call from: %s</string>
+    <string name="dialog_accept_call">Accept Call</string>
+    <string name="dialog_reject_call">Reject Call</string>
+    <string name="dialog_media_change_title">Media Type Change Request</string>
+    <string name="dialog_media_change_message">Request to change media type to: %s</string>
+    <string name="dialog_agree">Agree</string>
+    <string name="dialog_disagree">Disagree</string>
+
+    <!-- Call History -->
+    <string name="call_history_start_time">Start: %s</string>
+    <string name="call_history_end_time">End: %s</string>
+    <string name="call_history_participants">Participants: %s</string>
+    <string name="call_history_end_reason">Reason: %s</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_call_received">Call received</string>
+    <string name="toast_call_connected">Call connected</string>
+    <string name="toast_call_ended">Call ended</string>
+    <string name="toast_start_call_success">Start call success</string>
+    <string name="toast_start_call_failed">Start call failed: %s</string>
+    <string name="toast_accept_call_success">Accept call success</string>
+    <string name="toast_end_call_success">End call success</string>
+    <string name="toast_remote_user_state_changed">Remote user state changed: %s</string>
+    <string name="toast_media_type_change_request">Media type change request received</string>
+    <string name="toast_media_type_change_result">Media type change result: %s</string>
+    <string name="toast_call_type_changed">Call type changed</string>
+    <string name="toast_call_log_received">Call log received</string>
+    <string name="toast_local_call_log_received">Local call log received</string>
+    <string name="toast_start_time_received">Start time received</string>
+    <string name="toast_remote_user_invited">Remote user invited: %s</string>
+    <string name="toast_remote_camera_state_changed">Remote camera state changed: %s</string>
+    <string name="toast_remote_microphone_state_changed">Remote microphone state changed: %s</string>
+    <string name="toast_invite_success">Invite success</string>
+    <string name="toast_connection_success">Connection success</string>
+    <string name="toast_connection_failed">Connection failed: %s</string>
+    <string name="toast_disconnected">Disconnected</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_rationale">Camera permission is required for video calls</string>
+    <string name="permission_microphone_rationale">Microphone permission is required for calls</string>
+
+    <!-- Errors -->
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="error_invalid_input">Invalid input</string>
+    <string name="error_empty_app_key">App Key cannot be empty</string>
+    <string name="error_empty_user_token">User Token cannot be empty</string>
+    <string name="error_empty_callee_id">Callee User ID cannot be empty</string>
+    <string name="error_permissions_denied">Camera and microphone permissions are required for calls</string>
+</resources>
